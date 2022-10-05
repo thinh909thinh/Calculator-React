@@ -19,7 +19,7 @@ function App() {
   };
 
   return (
-    <Box backgroundColor="#F5F5F5">
+    <Box>
       <Container maxWidth="lg">
         <Box>
           <Box
@@ -48,7 +48,7 @@ function App() {
             0
           </Box>
           <Box backgroundColor="#F8F8FF" maxWidth={"480px"} margin="0 auto">
-            <Box display="flex" justifyContent="space-between">
+            <Box display="flex" justifyContent="space-between" flexWrap="wrap">
               <CustomButton
                 variant="contained"
                 color="secondary"
@@ -95,7 +95,7 @@ function App() {
                   backgroundColor: "red",
                 }}
               >
-                Delete
+                Del
               </CustomButton>
             </Box>
             <Box

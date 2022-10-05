@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 
 const CustomButton = styled(MuiButton)(() => ({
   borderRadius: "0",
-  padding: "15px 30px",
+  // padding: "15px 30px",
   color: "black",
   fontSize: "16px",
   fontWeight: "600",
